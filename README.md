@@ -12,21 +12,20 @@
   </p>
 </p>
 
-![Downloads](https://img.shields.io/github/downloads/daniimendes22/danconfig/total) ![Contributors](https://img.shields.io/github/contributors/daniimendes22/danconfig?color=dark-green) ![Stargazers](https://img.shields.io/github/stars/daniimendes22/danconfig?style=social) ![Issues](https://img.shields.io/github/issues/daniimendes22/danconfig) ![License](https://img.shields.io/github/license/daniimendes22/danconfig) 
+![Downloads](https://img.shields.io/github/downloads/daniimendes22/danconfig/total) ![Contributors](https://img.shields.io/github/contributors/daniimendes22/danconfig?color=dark-green) ![Stargazers](https://img.shields.io/github/stars/daniimendes22/danconfig?style=social) ![Issues](https://img.shields.io/github/issues/daniimendes22/danconfig) ![License](https://img.shields.io/github/license/daniimendes22/danconfig)
 
 ## Table Of Contents
 
-* [About the Project](#about-the-project)
-* [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-* [Usage](#usage)
-* [Roadmap](#roadmap)
-* [Contributing](#contributing)
-* [License](#license)
-* [Authors](#authors)
-
+- [About the Project](#about-the-project)
+- [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [License](#license)
+- [Authors](#authors)
 
 ## About The Project
 
@@ -38,13 +37,9 @@ This project was inspired AirBnB config, and it was build with eslint, prettier,
 
 ## Getting Started
 
-
 ### Prerequisites
 
-
-* yarn
-
-
+- yarn
 
 ### Installation
 
@@ -67,7 +62,6 @@ yarn add -D @dan28/danconfig typescript eslint prettier
 }
 ```
 
-
 2. In the file `.eslintrc`
 
 ```JSON
@@ -75,6 +69,7 @@ yarn add -D @dan28/danconfig typescript eslint prettier
   "extends": "./node_modules/@dan28/danconfig/.eslintrc"
 }
 ```
+
 If you're using React:
 
 ```JSON
@@ -86,14 +81,12 @@ If you're using React:
 }
 ```
 
-
 3. In the file `.prettierrc`
 
 ```JSON
 "@dan28/danconfig/.prettierrc"
 
 ```
-
 
 4. In the file `.package.json`
 
@@ -116,10 +109,11 @@ See the [open issues](https://github.com/daniimendes22/danconfig/issues) for a l
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-* If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/daniimendes22/danconfig/issues/new) to discuss it, or directly create a pull request after you edit the *README.md* file with necessary changes.
-* Please make sure you check your spelling and grammar.
-* Create individual PR for each suggestion.
-* Please also read through the [Code Of Conduct](https://github.com/daniimendes22/danconfig/blob/main/CODE_OF_CONDUCT.md) before posting your first idea as well.
+
+- If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/daniimendes22/danconfig/issues/new) to discuss it, or directly create a pull request after you edit the _README.md_ file with necessary changes.
+- Please make sure you check your spelling and grammar.
+- Create individual PR for each suggestion.
+- Please also read through the [Code Of Conduct](https://github.com/daniimendes22/danconfig/blob/main/CODE_OF_CONDUCT.md) before posting your first idea as well.
 
 ### Creating A Pull Request
 
@@ -135,5 +129,4 @@ Distributed under the MIT License. See [LICENSE](https://github.com/daniimendes2
 
 ## Authors
 
-*   [Daniel Mendes](https://github.com/daniimendes22) 
-
+- [Daniel Mendes](https://github.com/daniimendes22)
