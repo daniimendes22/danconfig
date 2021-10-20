@@ -1,6 +1,9 @@
 // @ts-check
 
+
+/** @Author Daniel Mendes 
 /** @type import('eslint-define-config').EslintConfig['rules'] */
+
 module.exports = {
   'import/prefer-default-export': 'off',
   'import/no-default-export': 'error',
