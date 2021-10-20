@@ -44,47 +44,24 @@ This project was inspired AirBnB config, and it was build with eslint, prettier,
 ### Installation
 
 ```sh
-yarn add -D @dan28/danconfig typescript eslint prettier
+yarn add -D danconfig typescript eslint prettier
 ```
 
 ## Usage
 
-1. In the file `tsconfig.json`
+1. In the file `.eslintrc`
 
 ```JSON
 {
-  "extends": "@dan28/danconfig",
-  "compilerOptions": {
-    "outDir": "./build",
-    "rootDir": "./src"
-  },
-  "include": ["./src"]
+  "extends": "danconfig"
 }
 ```
 
-2. In the file `.eslintrc`
+
+2. In the file `.prettierrc`
 
 ```JSON
-{
-  "extends": "./node_modules/@dan28/danconfig/.eslintrc"
-}
-```
-
-If you're using React:
-
-```JSON
-{
-  "extends": [
-    "./node_modules/@dan28/danconfig/.eslintrc",
-    "./node_modules/@dan28/danconfig/.eslintrc.react"
-  ]
-}
-```
-
-3. In the file `.prettierrc`
-
-```JSON
-"@dan28/danconfig/.prettierrc"
+"/danconfig/.prettierrc"
 
 ```
 
@@ -93,7 +70,6 @@ If you're using React:
 ```JSON
 {
   "scripts": {
-    "build": "tsc",
     "lint": "eslint ./src/",
     "format": "prettier . --write",
     "format:check": "prettier . --check"
