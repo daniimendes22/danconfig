@@ -1,0 +1,53 @@
+{
+  "name": "danconfig",
+  "version": "1.0.0",
+  "description": "ESLint config with TypeScript support",
+  "main": "index.js",
+  "repository": "https://github.com/daniimendes22/danconfig.git",
+  "author": "Daniel Mendes <nunodanielmendes22@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "eslint-rules-core.js",
+    ".eslintrc.js",
+    ".eslintrc.react.js",
+    ".prettierrc.js",
+    "tsconfig.json"
+  ],
+  "standard-version": {
+    "scripts": {
+      "postchangelog": "prettier --write CHANGELOG.md"
+    }
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "format": "prettier . --write",
+    "format:check": "prettier . --check",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.1.0",
+    "@typescript-eslint/parser": "^5.1.0",
+    "eslint-config-airbnb-typescript": "^14.0.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.26.1",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^13.2.1",
+    "@commitlint/config-conventional": "^13.2.0",
+    "eslint": "^8.0.1",
+    "eslint-define-config": "^1.1.1",
+    "husky": "^7.0.2",
+    "prettier": "^2.4.1",
+    "standard-version": "^9.3.2",
+    "typescript": "^4.4.4"
+  },
+  "peerDependencies": {
+    "eslint": "^7.26.0",
+    "prettier": "^2.3.0",
+    "typescript": "^4.2.4"
+  }
+}
